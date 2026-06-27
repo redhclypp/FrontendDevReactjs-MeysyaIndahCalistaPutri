@@ -2,7 +2,7 @@
 // Pastikan branch-nya benar (biasanya "main").
 // Format: https://raw.githubusercontent.com/{username}/{repo}/{branch}/data
 export const DATA_BASE_URL =
-  'https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/FrontendDevReactjs-MeysyaIndahCalistaPutri/main/data';
+  'https://raw.githubusercontent.com/redhclypp/FrontendDevReactjs-MeysyaIndahCalistaPutri/main/data';
 
 export const PAGE_SIZE = 8;
 
