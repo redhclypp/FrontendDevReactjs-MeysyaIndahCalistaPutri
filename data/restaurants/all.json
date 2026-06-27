@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Trattoria Bella Notte",
     "photos": [
-      "https://picsum.photos/seed/italian1/600/400"
+      "https://images.unsplash.com/photo-1698318671607-509fd32781c2?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "categories": [
       "Italian"
@@ -20,7 +20,7 @@
     "id": "2",
     "name": "Sakura Sushi House",
     "photos": [
-      "https://picsum.photos/seed/japan1/600/400"
+      "https://assets.ladiestory.id/gallery/1701258065617851842-sushiro.jpg"
     ],
     "categories": [
       "Japanese"
@@ -37,7 +37,7 @@
     "id": "3",
     "name": "El Taco Loco",
     "photos": [
-      "https://picsum.photos/seed/mexico1/600/400"
+      "https://gran.luchito.com/wp-content/uploads/2018/11/El-Mural-de-los-Poblanos-826x400.jpg"
     ],
     "categories": [
       "Mexican"
@@ -54,7 +54,7 @@
     "id": "4",
     "name": "Golden Dragon",
     "photos": [
-      "https://picsum.photos/seed/china1/600/400"
+      "https://hypnopompblog.wordpress.com/wp-content/uploads/2020/12/chinese.jpg"
     ],
     "categories": [
       "Chinese"
@@ -71,7 +71,7 @@
     "id": "5",
     "name": "Ocean Catch Seafood",
     "photos": [
-      "https://picsum.photos/seed/seafood1/600/400"
+      "https://quark-studio.com/wp-content/uploads/2019/07/DijlahVillage-45.jpg"
     ],
     "categories": [
       "Seafood"
@@ -88,7 +88,7 @@
     "id": "6",
     "name": "Liberty Diner",
     "photos": [
-      "https://picsum.photos/seed/american1/600/400"
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2c/d9/67/you-can-sit-outide-too.jpg?w=900&h=500&s=1"
     ],
     "categories": [
       "American"
@@ -105,7 +105,7 @@
     "id": "7",
     "name": "Bangkok Street Kitchen",
     "photos": [
-      "https://picsum.photos/seed/thai1/600/400"
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/8a/f9/72/sirocco-restaurant.jpg?w=900&h=500&s=1"
     ],
     "categories": [
       "Thai"
@@ -122,7 +122,7 @@
     "id": "8",
     "name": "Warung Bu Sri",
     "photos": [
-      "https://picsum.photos/seed/indo1/600/400"
+      "https://www.fasty.id/wp-content/uploads/2024/07/usaha-rumah-makan-sederhana.png"
     ],
     "categories": [
       "Indonesian"
@@ -139,7 +139,7 @@
     "id": "9",
     "name": "Seoul Garden BBQ",
     "photos": [
-      "https://picsum.photos/seed/korea1/600/400"
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/4d/ed/1b/678-baekjung-korean-bbq.jpg?w=900&h=500&s=1"
     ],
     "categories": [
       "Korean"
@@ -156,7 +156,7 @@
     "id": "10",
     "name": "Green Leaf Vegetarian",
     "photos": [
-      "https://picsum.photos/seed/veggie1/600/400"
+      "https://cdn-assets.jawapos.com/images/1/2026/04/08/restoran-kuliner-vegetarian-terbaik-di-surabaya-freepik-stockking-vFvJk.webp"
     ],
     "categories": [
       "Vegetarian"
@@ -173,7 +173,7 @@
     "id": "11",
     "name": "Morning Brew Cafe",
     "photos": [
-      "https://picsum.photos/seed/cafe1/600/400"
+      "https://ik.imagekit.io/tvlk/blog/2023/08/shutterstock_1415138246.jpg"
     ],
     "categories": [
       "Cafe"
@@ -190,7 +190,7 @@
     "id": "12",
     "name": "Smokehouse Pit Stop",
     "photos": [
-      "https://picsum.photos/seed/bbq1/600/400"
+      "https://asset.kompas.com/crops/IWiSHV3rJJVhov3RALGyiNXl3bo=/1x0:1280x853/1200x800/data/photo/2020/12/27/5fe82ca262407.jpg"
     ],
     "categories": [
       "BBQ"
