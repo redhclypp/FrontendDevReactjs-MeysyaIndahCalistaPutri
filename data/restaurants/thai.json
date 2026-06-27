@@ -1,0 +1,19 @@
+[
+  {
+    "id": "7",
+    "name": "Bangkok Street Kitchen",
+    "photos": [
+      "https://picsum.photos/seed/thai1/600/400"
+    ],
+    "categories": [
+      "Thai"
+    ],
+    "categoryFilter": "thai",
+    "rating": 4.6,
+    "price": "$$",
+    "isOpen": true,
+    "address": "Jl. Dieng No. 7, Malang",
+    "latitude": -7.9601,
+    "longitude": 112.6093
+  }
+]

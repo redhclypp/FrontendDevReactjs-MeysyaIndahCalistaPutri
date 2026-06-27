@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "name": "Trattoria Bella Notte",
+    "photos": [
+      "https://picsum.photos/seed/italian1/600/400"
+    ],
+    "categories": [
+      "Italian"
+    ],
+    "categoryFilter": "italian",
+    "rating": 4.5,
+    "price": "$$",
+    "isOpen": true,
+    "address": "Jl. Ijen No. 12, Malang",
+    "latitude": -7.9666,
+    "longitude": 112.6326
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "4",
+    "name": "Golden Dragon",
+    "photos": [
+      "https://picsum.photos/seed/china1/600/400"
+    ],
+    "categories": [
+      "Chinese"
+    ],
+    "categoryFilter": "chinese",
+    "rating": 4,
+    "price": "$$",
+    "isOpen": true,
+    "address": "Jl. Veteran No. 9, Malang",
+    "latitude": -7.9559,
+    "longitude": 112.6147
+  }
+]

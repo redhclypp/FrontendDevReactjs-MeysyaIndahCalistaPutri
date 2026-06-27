@@ -1,0 +1,19 @@
+[
+  {
+    "id": "10",
+    "name": "Green Leaf Vegetarian",
+    "photos": [
+      "https://picsum.photos/seed/veggie1/600/400"
+    ],
+    "categories": [
+      "Vegetarian"
+    ],
+    "categoryFilter": "vegetarian",
+    "rating": 4.1,
+    "price": "$",
+    "isOpen": false,
+    "address": "Jl. Tlogomas No. 11, Malang",
+    "latitude": -7.9292,
+    "longitude": 112.5979
+  }
+]

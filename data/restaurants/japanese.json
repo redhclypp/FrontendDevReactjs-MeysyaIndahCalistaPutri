@@ -1,0 +1,19 @@
+[
+  {
+    "id": "2",
+    "name": "Sakura Sushi House",
+    "photos": [
+      "https://picsum.photos/seed/japan1/600/400"
+    ],
+    "categories": [
+      "Japanese"
+    ],
+    "categoryFilter": "japanese",
+    "rating": 4.7,
+    "price": "$$$",
+    "isOpen": true,
+    "address": "Jl. Soekarno Hatta No. 5, Malang",
+    "latitude": -7.9525,
+    "longitude": 112.6128
+  }
+]

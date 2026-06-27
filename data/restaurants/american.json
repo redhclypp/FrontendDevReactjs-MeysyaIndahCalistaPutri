@@ -1,0 +1,19 @@
+[
+  {
+    "id": "6",
+    "name": "Liberty Diner",
+    "photos": [
+      "https://picsum.photos/seed/american1/600/400"
+    ],
+    "categories": [
+      "American"
+    ],
+    "categoryFilter": "american",
+    "rating": 3.8,
+    "price": "$$",
+    "isOpen": false,
+    "address": "Jl. Bromo No. 18, Malang",
+    "latitude": -7.9701,
+    "longitude": 112.6256
+  }
+]

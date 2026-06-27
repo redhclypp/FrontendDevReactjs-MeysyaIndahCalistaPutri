@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2-1",
+    "name": "Dimas Pratama",
+    "rating": 5,
+    "text": "Makanannya enak banget, pelayanan ramah, bakal balik lagi!",
+    "image": "https://i.pravatar.cc/100?img=6"
+  },
+  {
+    "id": "2-2",
+    "name": "Sarah Amelia",
+    "rating": 4,
+    "text": "Tempatnya nyaman, porsi pas, harga oke buat kualitasnya.",
+    "image": "https://i.pravatar.cc/100?img=7"
+  },
+  {
+    "id": "2-3",
+    "name": "Budi Santoso",
+    "rating": 3,
+    "text": "Lumayan, tapi agak lama nunggu pesanan datang.",
+    "image": "https://i.pravatar.cc/100?img=8"
+  }
+]

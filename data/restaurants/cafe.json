@@ -1,0 +1,19 @@
+[
+  {
+    "id": "11",
+    "name": "Morning Brew Cafe",
+    "photos": [
+      "https://picsum.photos/seed/cafe1/600/400"
+    ],
+    "categories": [
+      "Cafe"
+    ],
+    "categoryFilter": "cafe",
+    "rating": 4.5,
+    "price": "$$",
+    "isOpen": true,
+    "address": "Jl. Bandung No. 4, Malang",
+    "latitude": -7.9614,
+    "longitude": 112.6234
+  }
+]

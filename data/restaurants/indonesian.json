@@ -1,0 +1,19 @@
+[
+  {
+    "id": "8",
+    "name": "Warung Bu Sri",
+    "photos": [
+      "https://picsum.photos/seed/indo1/600/400"
+    ],
+    "categories": [
+      "Indonesian"
+    ],
+    "categoryFilter": "indonesian",
+    "rating": 4.8,
+    "price": "$",
+    "isOpen": true,
+    "address": "Jl. Gajayana No. 14, Malang",
+    "latitude": -7.9505,
+    "longitude": 112.6161
+  }
+]

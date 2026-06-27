@@ -1,0 +1,19 @@
+[
+  {
+    "id": "5",
+    "name": "Ocean Catch Seafood",
+    "photos": [
+      "https://picsum.photos/seed/seafood1/600/400"
+    ],
+    "categories": [
+      "Seafood"
+    ],
+    "categoryFilter": "seafood",
+    "rating": 4.3,
+    "price": "$$$",
+    "isOpen": true,
+    "address": "Jl. Sulfat No. 3, Malang",
+    "latitude": -7.9483,
+    "longitude": 112.6402
+  }
+]

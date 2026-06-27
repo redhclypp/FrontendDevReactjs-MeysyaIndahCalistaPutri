@@ -1,0 +1,19 @@
+[
+  {
+    "id": "9",
+    "name": "Seoul Garden BBQ",
+    "photos": [
+      "https://picsum.photos/seed/korea1/600/400"
+    ],
+    "categories": [
+      "Korean"
+    ],
+    "categoryFilter": "korean",
+    "rating": 4.4,
+    "price": "$$$",
+    "isOpen": true,
+    "address": "Jl. Ijen No. 30, Malang",
+    "latitude": -7.9678,
+    "longitude": 112.6311
+  }
+]

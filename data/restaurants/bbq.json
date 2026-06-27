@@ -1,0 +1,19 @@
+[
+  {
+    "id": "12",
+    "name": "Smokehouse Pit Stop",
+    "photos": [
+      "https://picsum.photos/seed/bbq1/600/400"
+    ],
+    "categories": [
+      "BBQ"
+    ],
+    "categoryFilter": "bbq",
+    "rating": 3.9,
+    "price": "$$",
+    "isOpen": true,
+    "address": "Jl. Kertosari No. 6, Malang",
+    "latitude": -7.9447,
+    "longitude": 112.6355
+  }
+]
