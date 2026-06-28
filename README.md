@@ -126,22 +126,3 @@ repo untuk auto-deploy). Tidak perlu environment variable apapun.
   "text": "string"
 }
 ```
-
-## Catatan & Asumsi (penting buat dijelaskan kalau ditanya)
-
-- **Kenapa file statis, bukan REST API beneran?** Karena beberapa pilihan API
-  gratis (Yelp Fusion → sekarang berbayar/trial, mockapi.io → tidak bisa
-  diakses dari environment development penulis) tidak bisa dipakai. File JSON
-  di GitHub dipilih sebagai solusi paling stabil dan tidak butuh akun
-  tambahan.
-- **Filter kategori** tetap memicu network request baru ke GitHub setiap kali
-  diganti (bukan filter di data yang sudah di memory), supaya tetap merefleksikan
-  perilaku "server-side filter" sesuai spek — hanya saja hasil filter-nya
-  sudah dihitung sebelumnya (pre-computed) saat membuat file, bukan dihitung
-  dinamis oleh sebuah server saat request masuk.
-- **Load More** menampilkan data tambahan dari hasil fetch kategori yang
-  sedang aktif (karena file statis tidak punya konsep pagination/offset di
-  server).
-- Data dummy (12 restoran, 3 review masing-masing) dibuat oleh
-  `scripts/generate-data.js`. Foto pakai picsum.photos, avatar reviewer pakai
-  i.pravatar.cc — keduanya gratis dan tidak butuh API key.
