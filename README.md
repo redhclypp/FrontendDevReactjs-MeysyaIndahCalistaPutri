@@ -1,38 +1,54 @@
 # Restaurants — Frontend Developer Technical Test
 
-Implementasi mockup "Restaurants" menggunakan React.js. Data restoran disimpan
-sebagai **file JSON statis di dalam repo ini sendiri** (folder `data/`), dan
-difetch lewat `raw.githubusercontent.com` setelah repo di-push ke GitHub.
+Aplikasi web pencarian restoran yang dibangun menggunakan React.js. Pengguna dapat melihat daftar restoran, melakukan filter berdasarkan kategori, harga, dan status buka, serta melihat detail restoran beserta lokasi dan ulasan.
 
-Pendekatan ini dipilih karena tidak butuh akun/API key pihak ketiga sama
-sekali — cukup GitHub, yang memang sudah wajib dipakai untuk submit project
-ini.
+Karena API restoran yang direkomendasikan tidak dapat digunakan selama proses pengembangan, aplikasi ini menggunakan file JSON statis yang disimpan pada folder `data/` dan di-fetch melalui `raw.githubusercontent.com` setelah repository di-push ke GitHub. Pendekatan ini memungkinkan aplikasi tetap melakukan proses fetch data seperti menggunakan API.
 
-## Tech Stack & Versions
+---
 
-- **React**: 18.3.1
-- **Node**: >= 18 (dikembangkan dengan Node 22)
-- **Build tool**: Vite 5
-- **Styling**: Tailwind CSS 3
-- **Routing**: React Router 6
-- **Map**: React Leaflet (OpenStreetMap, tidak butuh API key)
-- **Data**: file JSON statis di `data/`, di-fetch dari `raw.githubusercontent.com`
+## Tech Stack
+
+* React 18
+* Vite 5
+* Tailwind CSS 3
+* React Router DOM 6
+* React Leaflet
+* OpenStreetMap
+* Static JSON (GitHub Raw Content)
+
+---
+
+## Fitur
+
+* Login sederhana menggunakan username dan password.
+* Menampilkan daftar restoran.
+* Filter berdasarkan:
+
+  * Open Now
+  * Price
+  * Categories
+* Halaman detail restoran.
+* Menampilkan lokasi restoran menggunakan OpenStreetMap.
+* Menampilkan ulasan restoran.
+* Fitur **Load More** pada daftar restoran.
+* Tampilan responsif.
+
+---
 
 ## Login
 
-Halaman login sederhana sebagai gate sebelum mengakses daftar restoran
-(hardcoded credential, sesuai kebutuhan technical test ini):
+Gunakan akun berikut untuk masuk ke aplikasi:
 
-- **Username**: `admin`
-- **Password**: `admin123`
+* **Username:** `admin`
+* **Password:** `admin123`
 
-## ⚠️ PENTING — urutan setup harus seperti ini
+---
 
-Karena data difetch dari GitHub (bukan localhost), **repo ini harus sudah
-di-push ke GitHub dulu** sebelum fetch data bisa berhasil, termasuk saat
-development lokal.
+## Cara Menjalankan Project
 
-### 1. Push repo ke GitHub dulu
+### 1. Push repository ke GitHub
+
+Karena data diambil dari GitHub Raw Content, repository harus sudah di-push terlebih dahulu.
 
 ```bash
 git init
@@ -43,86 +59,82 @@ git branch -M main
 git push -u origin main
 ```
 
-(Folder `data/` ikut ter-commit otomatis — sudah berisi 12 restoran +
-review-nya, dibuat oleh `scripts/generate-data.js`. Tidak perlu generate ulang
-kecuali mau ubah datanya.)
+---
 
-### 2. Update `src/config.js`
+### 2. Konfigurasi `src/config.js`
 
-Ganti `DATA_BASE_URL` dengan username & nama repo GitHub kamu:
+Sesuaikan `DATA_BASE_URL` dengan username dan nama repository GitHub.
 
-```js
+```javascript
 export const DATA_BASE_URL =
-  'https://raw.githubusercontent.com/USERNAME/FrontendDevReactjs-MeysyaIndahCalistaPutri/main/data';
+'https://raw.githubusercontent.com/USERNAME/FrontendDevReactjs-MeysyaIndahCalistaPutri/main/data';
 ```
 
-### 3. Install & jalankan
+---
+
+### 3. Install dependency
 
 ```bash
 npm install
+```
+
+---
+
+### 4. Jalankan project
+
+```bash
 npm run dev
 ```
 
-Buka `http://localhost:5173`.
+---
 
-> Kalau ada error "Gagal mengambil data restoran", cek lagi: apakah repo
-> sudah di-push? apakah `DATA_BASE_URL` sudah benar (coba buka salah satu
-> URL-nya langsung di browser, misalnya
-> `.../data/restaurants/all.json` — harus muncul JSON, bukan 404).
-
-## Build & Deploy
+## Build Project
 
 ```bash
 npm run build
 ```
 
-Deploy ke Netlify (drag & drop folder `dist/` ke
-[app.netlify.com/drop](https://app.netlify.com/drop), atau connect ke GitHub
-repo untuk auto-deploy). Tidak perlu environment variable apapun.
+---
 
-## Struktur Halaman
-
-**Main (`/`)**
-- Filter: Open Now (client-side), Price (client-side), Categories — tiap
-  kategori diganti, frontend fetch file JSON yang berbeda dari GitHub
-  (`data/restaurants/{kategori}.json`)
-- Grid restoran: image (photos[0]), kategori (categories[0]), rating, price
-  range, status open/closed, nama, tombol Learn More
-- Load More: menampilkan lebih banyak item dari data kategori yang sudah
-  ter-fetch (lihat Catatan di bawah)
-
-**Detail (`/restaurant/:id`)**
-- Nama & rating restoran
-- Map lokasi (Leaflet + OpenStreetMap)
-- Daftar review: foto, nama, rating, teks — fetch dari
-  `data/reviews/{id}.json`
+---
 
 ## Struktur Data
 
-**`data/restaurants/{kategori}.json`** — array berisi:
+### Restaurant
+
 ```json
 {
   "id": "string",
   "name": "string",
-  "photos": ["string url"],
+  "photos": ["string"],
   "categories": ["string"],
   "categoryFilter": "string",
-  "rating": "number",
-  "price": "$ | $$ | $$$ | $$$$",
-  "isOpen": "boolean",
+  "rating": 4.8,
+  "price": "$$",
+  "isOpen": true,
   "address": "string",
-  "latitude": "number",
-  "longitude": "number"
+  "latitude": -7.98,
+  "longitude": 112.63
 }
 ```
 
-**`data/reviews/{id}.json`** — array berisi:
+### Review
+
 ```json
 {
   "id": "string",
   "name": "string",
-  "image": "string url avatar",
-  "rating": "number",
+  "image": "string",
+  "rating": 5,
   "text": "string"
 }
 ```
+
+---
+
+## Catatan
+
+* Data restoran dan ulasan disimpan dalam bentuk file JSON statis.
+* Setiap perubahan kategori akan melakukan fetch ke file JSON kategori yang sesuai.
+* Peta menggunakan OpenStreetMap melalui React Leaflet sehingga tidak memerlukan API Key.
+* File JSON kategori dibuat secara otomatis menggunakan `scripts/generate-data.js`.
